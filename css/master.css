@@ -1,10 +1,12 @@
 .hero-bgd {
-  position: relative;
-  height: 100%; }
+  position: relative; }
   .hero-bgd.header {
-    background-image: linear-gradient(#FFF, #ECE9E6); }
+    background-image: linear-gradient(#FFF, #ECE9E6);
+    height: 100vh; }
   .hero-bgd.footer {
-    background-image: linear-gradient(#ECE9E6, #FFF); }
+    background-image: linear-gradient(#ECE9E6, #FFF);
+    height: 100%;
+    min-height: 200px; }
 
 svg {
   position: absolute;
@@ -16,12 +18,11 @@ svg {
   svg.top {
     top: 0; }
 
-.hero-section {
-  padding-top: 100px;
-  padding-bottom: 200px; }
-
-.hero-profile-img {
+.hero-profile-img, .img {
   max-width: 100%;
   max-height: 100%; }
+
+.footer-section {
+  padding: 50px; }
 
 /*# sourceMappingURL=master.css.map */
