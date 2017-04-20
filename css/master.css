@@ -1,14 +1,20 @@
-header {
+.hero-bgd {
   position: relative;
-  height: 100%;
-  background-image: linear-gradient(#ff9d2f, #ff6126); }
+  height: 100%; }
+  .hero-bgd.header {
+    background-image: linear-gradient(#0b0b0b, #dfdfdf); }
+  .hero-bgd.footer {
+    background-image: linear-gradient(#dfdfdf, #0b0b0b); }
 
 svg {
   position: absolute;
-  bottom: 0;
   width: 100%;
   height: 10vw;
   /* set height to pixels if you want angle to change with screen width */ }
+  svg.bottom {
+    bottom: 0; }
+  svg.top {
+    top: 0; }
 
 .hero-section {
   padding-top: 100px;
