@@ -1,22 +1,26 @@
 // Non-Rectangular Header
 
 // Gradient Colors
-$top-gradient-color: #FFF;
+$top-gradient-color: #f7f6f6;
 $bottom-gradient-color: #ECE9E6;
 
 // Background
-.hero-bgd {
-  position: relative;
-  &.header {
+.header-bgd {
+    position: relative;
+    margin-right: -15px;
+    margin-left: -15px;
     background-image: linear-gradient($top-gradient-color, $bottom-gradient-color);
-    height: 100vh;
+    height: 100%;
   }
-  &.footer {
+
+.footer-bgd {
+    position: relative;
+    margin-right: -15px;
+    margin-left: -15px;
     background-image: linear-gradient($bottom-gradient-color, $top-gradient-color);
     height: 100%;
     min-height: 200px;
   }
-}
 
 // White Triangle
 svg {
