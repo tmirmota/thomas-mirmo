@@ -1,8 +1,12 @@
 // Mixins
 @import "./mixins/media-queries";
 
+// Variables
+@import "./partials/variables";
+
 // Partials
 @import "./partials/spacing";
 @import "./partials/svg";
 @import "./partials/header";
+@import "./partials/footer";
 @import './partials/homepage';

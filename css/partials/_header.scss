@@ -1,10 +1,21 @@
-// Non-Rectangular Header
+// HEADER
 
-// Gradient Colors
-$top-gradient-color: #f7f6f6;
-$bottom-gradient-color: #ECE9E6;
+// Header Section
+.section-hero {
+  padding-top: 7rem;
+  padding-bottom: 10rem;
+  & .img-profile {
+    // background-color: red;
+    background: url("../../images/Thomas_Mirmotahari.jpg") 20% 50% no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    padding-top: 100%;
+    border-radius: 100%;
+  }
+}
 
-// Background
+// Header Background
 .header-bgd {
     position: relative;
     margin-right: -15px;
@@ -12,14 +23,3 @@ $bottom-gradient-color: #ECE9E6;
     background-image: linear-gradient($top-gradient-color, $bottom-gradient-color);
     height: 100%;
   }
-
-.footer-bgd {
-    position: relative;
-    margin-right: -15px;
-    margin-left: -15px;
-    background-image: linear-gradient($bottom-gradient-color, $top-gradient-color);
-    height: 100%;
-    min-height: 200px;
-  }
-
-  /* set height to pixels if you want angle to change with screen width */

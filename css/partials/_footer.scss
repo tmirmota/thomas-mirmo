@@ -1,0 +1,17 @@
+// FOOTER
+
+// Footer Section
+.section-footer {
+  padding-top: 12rem;
+  padding-bottom: 3rem;
+}
+
+// Footer Background
+.footer-bgd {
+    position: relative;
+    margin-right: -15px;
+    margin-left: -15px;
+    background-image: linear-gradient($bottom-gradient-color, $top-gradient-color);
+    height: 100%;
+    min-height: 200px;
+  }
