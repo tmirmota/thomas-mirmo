@@ -19,6 +19,9 @@
   transform: translate(-20%, -10%);
   & .rotate {
     transform: rotate(10deg);
+    @include sm {
+      display: none;
+    }
   }
   &-size {
     width: 40rem;

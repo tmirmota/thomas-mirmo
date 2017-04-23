@@ -5,9 +5,6 @@
 .section-heading {
   margin-bottom: 3rem; }
 
-.pl-0 {
-  padding-left: 0px; }
-
 .svg-bottom-triangle {
   bottom: 0;
   position: absolute;
@@ -28,6 +25,9 @@
   transform: translate(-20%, -10%); }
   .svg-hero-rectangle .rotate {
     transform: rotate(10deg); }
+    @media (max-width: 480px) {
+      .svg-hero-rectangle .rotate {
+        display: none; } }
   .svg-hero-rectangle-size {
     width: 40rem;
     height: 23rem; }
