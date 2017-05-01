@@ -22,15 +22,20 @@
   overflow: visible !important;
   width: 100%;
   height: 100%;
-  transform: translate(-20%, -100%); }
-  .svg-hero-rectangle .rotate {
-    transform: rotate(10deg); }
-    @media (max-width: 480px) {
-      .svg-hero-rectangle .rotate {
-        display: none; } }
+  transform: translate(-15%, 10%); }
+  @media (max-width: 480px) {
+    .svg-hero-rectangle .rotate {
+      display: none; } }
   .svg-hero-rectangle-size {
     width: 40rem;
     height: 23rem; }
+
+.linkedin-cta {
+  color: #FFF;
+  background-color: #007bb6; }
+  .linkedin-cta:hover, .linkedin-cta:active {
+    background-color: #00A0DC;
+    cursor: auto; }
 
 .section-hero {
   padding-top: 3rem;
