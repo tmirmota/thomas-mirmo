@@ -22,7 +22,7 @@
   overflow: visible !important;
   width: 100%;
   height: 100%;
-  transform: translate(-20%, -10%); }
+  transform: translate(-20%, -100%); }
   .svg-hero-rectangle .rotate {
     transform: rotate(10deg); }
     @media (max-width: 480px) {
@@ -33,7 +33,7 @@
     height: 23rem; }
 
 .section-hero {
-  padding-top: 7rem;
+  padding-top: 3rem;
   padding-bottom: 10rem; }
   .section-hero .img-profile {
     background: url("../../images/Thomas_Mirmotahari.jpg") 20% 50% no-repeat;
